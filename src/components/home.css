@@ -1,0 +1,172 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+}
+#main
+{
+    width: 1495px;
+    height: 100vh;
+    border: 1px solid black;
+    
+}
+#navbar
+{
+    width: 100%;
+    height: 7%;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+}
+#webtitle
+{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 70px;
+}
+#nav_container
+{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#search 
+{
+    width: 60%;
+    height: 80%;
+    border-radius: 10px;
+    background-color:rgb(182, 182, 182);
+    font-size: large;
+}
+#logout
+{
+    width: 45%;
+    height: 60%;
+    background-color: rgb(63, 98, 255);
+    font-size: large;
+    border-radius: 10px;
+    cursor:pointer;
+}
+#user_img
+{
+    width: 15%;
+    height: 60%;
+    border-radius: 50px;
+}
+#other
+{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: inherit;
+}
+#user
+{
+    width: 65%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#user_p
+{
+    color: rgb(155, 155, 155);
+    font-size: 40px;
+}
+#home_img
+{
+    width: 55%;
+    height: 75%;
+    border-radius: 10px;
+}
+#data
+{
+    width: 100%;
+    height: 92%;
+    display: flex;
+}
+#form
+{
+    width: 35%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#statement
+{
+    width: 100%;
+    height: 5%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: rgb(156, 156, 156);
+    font-size: 30px;
+}
+#title
+{
+    width: 80%;
+    height: 7%;
+    border-radius: 10px;
+    background-color: rgb(253, 253, 253);
+}
+#price
+{
+    width: 80%;
+    height: 7%;
+    border-radius: 10px;
+    background-color: rgb(253, 253, 253);
+}
+#description
+{
+    width: 80%;
+    height: 25%;
+    border-radius: 10px;
+    background-color: rgb(253, 253, 253);
+}
+#img_path
+{
+    width: 80%;
+    height: 7%;
+}
+#btn_area
+{
+    width: 100%;
+    height: 7%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+#button1
+{
+    width: 35%;
+    height: 100%;
+    border-radius: 10px;
+    background-color: rgb(49, 248, 75);
+    cursor:pointer;
+}
+#Ads_navbar
+{
+    width: 100%;
+    height: 70px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+}
+#adsnav_container
+{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
